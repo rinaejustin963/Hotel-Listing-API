@@ -1,0 +1,5 @@
+2022-09-14 11:36:12.592 +02:00 [INF] Now listening on: https://localhost:7053
+2022-09-14 11:36:12.627 +02:00 [INF] Now listening on: http://localhost:5053
+2022-09-14 11:36:12.631 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-14 11:36:12.633 +02:00 [INF] Hosting environment: Development
+2022-09-14 11:36:12.634 +02:00 [INF] Content root path: C:\Users\Doosy\source\repos\rinae963\Hotel-Listing-API\HotelListing.API\

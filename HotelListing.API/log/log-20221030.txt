@@ -1,0 +1,5 @@
+2022-10-30 19:24:11.239 +02:00 [INF] Now listening on: https://localhost:7053
+2022-10-30 19:24:11.335 +02:00 [INF] Now listening on: http://localhost:5053
+2022-10-30 19:24:11.350 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-10-30 19:24:11.352 +02:00 [INF] Hosting environment: Development
+2022-10-30 19:24:11.354 +02:00 [INF] Content root path: C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API\
