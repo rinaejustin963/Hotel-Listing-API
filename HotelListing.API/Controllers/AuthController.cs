@@ -10,10 +10,13 @@ namespace HotelListing.API.Controllers
     public class AuthController : ControllerBase
     {
         private readonly IAuthManager _authManager;
+        private readonly ILogger<AuthController> _logger;
 
-        public AuthController(IAuthManager authManager)
+        public AuthController(IAuthManager authManager, ILogger<AuthController> logger)
         {
             this._authManager = authManager;
+            _logger = logger;
+
         }
         //Setting up our Endpoints
         //POST: api/Accounts/register
@@ -25,18 +28,31 @@ namespace HotelListing.API.Controllers
 
         public async Task<ActionResult> Register([FromBody] ApiUserDto apiUserDto)
         {
-            var errors = await _authManager.Register(apiUserDto);
-
-            if (errors.Any())
+            //When a user attempts to login
+            //Logs ussusally assists by telling us whats really happening during the excecution
+            ///It provides the details of the error
+            _logger.LogInformation($"Registration attempt for {apiUserDto.Email}");
+            try
             {
-                foreach(var error in errors)
-                {
-                    ModelState.AddModelError(error.Code, error.Description);
-                }
+                var errors = await _authManager.Register(apiUserDto);
 
-                return BadRequest(ModelState);
+                if (errors.Any())
+                {
+                    foreach (var error in errors)
+                    {
+                        ModelState.AddModelError(error.Code, error.Description);
+                    }
+
+                    return BadRequest(ModelState);
+                }
+                return Ok();
             }
-            return Ok();
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, $"Something went wrong in the {nameof(Register)}- User Registration attempt for {apiUserDto.Email}");
+                return Problem($"something is wrong in the {nameof(Register)}. Please contact support", statusCode: 500);
+            }
+            
         }
 
         //Setting up our Endpoints
