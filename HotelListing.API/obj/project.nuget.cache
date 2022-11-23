@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "5M+4eYMH8quoeXB08TMFcCSR/KOOvUtnYAsLe7+qSjPnkqUuraIB7lFR7ffvIx5jDV02WtWxj3SIDI4+NCTfEg==",
+  "dgSpecHash": "sfW4TWRV9o97rJ/8P54dCHJCD/dsnEU42EP2RB2xASnmSgwvoxCWFucJjzt1A/O3iFgO7Ek80C7gGJul2ETdIA==",
   "success": true,
   "projectFilePath": "C:\\Users\\justi\\source\\repos\\rinae963\\Hotel-Listing-API\\HotelListing.API\\HotelListing.API.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,10 @@
     "C:\\Users\\justi\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\justi\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\justi\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
+    "C:\\Users\\justi\\.nuget\\packages\\google.apis\\1.57.0\\google.apis.1.57.0.nupkg.sha512",
+    "C:\\Users\\justi\\.nuget\\packages\\google.apis.admin.directory.directory_v1\\1.57.0.2869\\google.apis.admin.directory.directory_v1.1.57.0.2869.nupkg.sha512",
+    "C:\\Users\\justi\\.nuget\\packages\\google.apis.auth\\1.57.0\\google.apis.auth.1.57.0.nupkg.sha512",
+    "C:\\Users\\justi\\.nuget\\packages\\google.apis.core\\1.57.0\\google.apis.core.1.57.0.nupkg.sha512",
     "C:\\Users\\justi\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\justi\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
     "C:\\Users\\justi\\.nuget\\packages\\messagepack.annotations\\2.1.152\\messagepack.annotations.2.1.152.nupkg.sha512",

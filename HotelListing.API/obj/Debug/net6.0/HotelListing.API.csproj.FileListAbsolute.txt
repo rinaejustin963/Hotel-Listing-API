@@ -638,3 +638,8 @@ C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API\bin\Debu
 C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
 C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
 C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API\bin\Debug\net6.0\System.Memory.Data.dll
+C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API\bin\Debug\net6.0\Google.Apis.dll
+C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API\bin\Debug\net6.0\Google.Apis.Admin.Directory.directory_v1.dll
+C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API\bin\Debug\net6.0\Google.Apis.Auth.PlatformServices.dll
+C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API\bin\Debug\net6.0\Google.Apis.Auth.dll
+C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API\bin\Debug\net6.0\Google.Apis.Core.dll

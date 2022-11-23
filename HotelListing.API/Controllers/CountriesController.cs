@@ -11,6 +11,8 @@ using HotelListing.API.Models.Hotel;
 using AutoMapper;
 using HotelListing.API.Contracts;
 using Microsoft.AspNetCore.Authorization;
+using HotelListing.API.Exceptions;
+using Google.Apis.Admin.Directory.directory_v1.Data;
 
 namespace HotelListing.API.Controllers
 {
@@ -50,8 +52,7 @@ namespace HotelListing.API.Controllers
 
             if (country == null)
             {
-                _logger.LogWarning($"No Record found in {nameof(GetCountry)}. with Id: {id}. ");
-                return NotFound();
+                throw new NotFoundException(nameof(GetCountries), id);
             }
 
             var countryDto = _mapper.Map<CountryDto>(country);
@@ -77,7 +78,7 @@ namespace HotelListing.API.Controllers
 
             if (country == null)
             {
-                return NotFound();
+                throw new NotFoundException(nameof(GetCountries), id);
             }
 
             _mapper.Map(updateCountryDto, country);
@@ -116,6 +117,7 @@ namespace HotelListing.API.Controllers
         // DELETE: api/Countries/5
         [HttpDelete("{id}")]
         [Authorize]
+        //(Roles = "Administrator")
         public async Task<IActionResult> DeleteCountry(int id)
         {
             var country = await _countriesRepository.GetAsync(id);
