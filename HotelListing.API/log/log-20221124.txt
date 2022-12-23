@@ -19,3 +19,8 @@ HotelListing.API.Exceptions.NotFoundException: GetCountries (25) was not found.
    at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
    at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
    at HotelListing.API.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API\Middleware\ExceptionMiddleware.cs:line 21
+2022-11-24 15:14:21.006 +02:00 [INF] Now listening on: https://localhost:7053
+2022-11-24 15:14:21.113 +02:00 [INF] Now listening on: http://localhost:5053
+2022-11-24 15:14:21.131 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-24 15:14:21.134 +02:00 [INF] Hosting environment: Development
+2022-11-24 15:14:21.138 +02:00 [INF] Content root path: C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API\

@@ -1,0 +1,48 @@
+2022-12-23 02:09:03.646 +02:00 [INF] Now listening on: https://localhost:7053
+2022-12-23 02:09:03.870 +02:00 [INF] Now listening on: http://localhost:5053
+2022-12-23 02:09:03.900 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-23 02:09:03.902 +02:00 [INF] Hosting environment: Development
+2022-12-23 02:09:03.904 +02:00 [INF] Content root path: C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API\
+2022-12-23 02:12:21.742 +02:00 [INF] Now listening on: https://localhost:7053
+2022-12-23 02:12:21.891 +02:00 [INF] Now listening on: http://localhost:5053
+2022-12-23 02:12:21.911 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-23 02:12:21.916 +02:00 [INF] Hosting environment: Development
+2022-12-23 02:12:21.921 +02:00 [INF] Content root path: C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API\
+2022-12-23 02:13:55.129 +02:00 [INF] Now listening on: https://localhost:7053
+2022-12-23 02:13:55.448 +02:00 [INF] Now listening on: http://localhost:5053
+2022-12-23 02:13:55.464 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-23 02:13:55.466 +02:00 [INF] Hosting environment: Development
+2022-12-23 02:13:55.468 +02:00 [INF] Content root path: C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API\
+2022-12-23 02:26:52.866 +02:00 [INF] Now listening on: https://localhost:7053
+2022-12-23 02:26:52.955 +02:00 [INF] Now listening on: http://localhost:5053
+2022-12-23 02:26:52.982 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-23 02:26:53.014 +02:00 [INF] Hosting environment: Development
+2022-12-23 02:26:53.016 +02:00 [INF] Content root path: C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API\
+2022-12-23 02:30:22.225 +02:00 [INF] Now listening on: https://localhost:7053
+2022-12-23 02:30:22.328 +02:00 [INF] Now listening on: http://localhost:5053
+2022-12-23 02:30:22.342 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-23 02:30:22.344 +02:00 [INF] Hosting environment: Development
+2022-12-23 02:30:22.346 +02:00 [INF] Content root path: C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API\
+2022-12-23 02:37:44.888 +02:00 [INF] Now listening on: https://localhost:7053
+2022-12-23 02:37:45.058 +02:00 [INF] Now listening on: http://localhost:5053
+2022-12-23 02:37:45.093 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-23 02:37:45.096 +02:00 [INF] Hosting environment: Development
+2022-12-23 02:37:45.098 +02:00 [INF] Content root path: C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API\
+2022-12-23 02:39:11.053 +02:00 [INF] Now listening on: https://localhost:7053
+2022-12-23 02:39:11.167 +02:00 [INF] Now listening on: http://localhost:5053
+2022-12-23 02:39:11.181 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-23 02:39:11.183 +02:00 [INF] Hosting environment: Development
+2022-12-23 02:39:11.184 +02:00 [INF] Content root path: C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API\
+2022-12-23 02:39:13.873 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET v{version}/countries" for actions - HotelListing.API.Controllers.CountriesController.GetCountries (HotelListing.API),HotelListing.API.Controllers.CountriesV2Controller.GetCountries (HotelListing.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-12-23 02:44:01.130 +02:00 [INF] Now listening on: https://localhost:7053
+2022-12-23 02:44:01.208 +02:00 [INF] Now listening on: http://localhost:5053
+2022-12-23 02:44:01.223 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-23 02:44:01.234 +02:00 [INF] Hosting environment: Development
+2022-12-23 02:44:01.236 +02:00 [INF] Content root path: C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API\
