@@ -87,6 +87,13 @@ builder.Services.AddAuthentication(options =>
     };
 });
 
+builder.Services.AddResponseCaching(options =>
+{
+    options.MaximumBodySize = 1024;//This defines the total cachable allowed data
+    options.UseCaseSensitivePaths = true;
+}
+);
+
 
 var app = builder.Build();
 
@@ -101,6 +108,26 @@ app.UseMiddleware<ExceptionMiddleware>();
 app.UseHttpsRedirection();
 
 app.UseCors("AllowAll");
+
+app.UseResponseCaching();
+
+//GEt the context which is the Http request
+app.Use(async (context, next) =>
+{
+  //When we add cache control to our response, there are certain header values that are going to come back
+  //So that the receiver of the data will know that it was coming from the cache
+  context.Response.GetTypedHeaders().CacheControl = 
+    new Microsoft.Net.Http.Headers.CacheControlHeaderValue()
+        {
+            Public = true,
+            MaxAge = TimeSpan.FromSeconds(10)// You will get fresh data after every 10 seconds
+        };
+//Vary header is used for cache response 
+context.Response.Headers[Microsoft.Net.Http.Headers.HeaderNames.Vary] = 
+    new string[] { "Accept-Encoding" };
+
+await next();
+});
 
 app.UseAuthorization();
 
