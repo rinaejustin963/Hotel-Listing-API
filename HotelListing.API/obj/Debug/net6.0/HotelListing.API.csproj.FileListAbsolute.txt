@@ -645,3 +645,8 @@ C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API\bin\Debu
 C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API\bin\Debug\net6.0\Google.Apis.Core.dll
 C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.dll
 C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll
+C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API\bin\Debug\net6.0\Microsoft.AspNetCore.OData.dll
+C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API\bin\Debug\net6.0\Microsoft.OData.Core.dll
+C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API\bin\Debug\net6.0\Microsoft.OData.Edm.dll
+C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API\bin\Debug\net6.0\Microsoft.OData.ModelBuilder.dll
+C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API\bin\Debug\net6.0\Microsoft.Spatial.dll

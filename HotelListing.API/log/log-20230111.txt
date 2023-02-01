@@ -1,0 +1,98 @@
+2023-01-11 08:16:41.001 +02:00 [INF] Now listening on: https://localhost:7053
+2023-01-11 08:16:41.042 +02:00 [INF] Now listening on: http://localhost:5053
+2023-01-11 08:16:41.050 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-11 08:16:41.052 +02:00 [INF] Hosting environment: Development
+2023-01-11 08:16:41.053 +02:00 [INF] Content root path: C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API\
+2023-01-11 08:16:45.728 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET v{version}/countries" for actions - HotelListing.API.Controllers.CountriesController.GetCountries (HotelListing.API),HotelListing.API.Controllers.CountriesController.GetPagedCountries (HotelListing.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-01-11 08:17:52.266 +02:00 [INF] Now listening on: https://localhost:7053
+2023-01-11 08:17:52.321 +02:00 [INF] Now listening on: http://localhost:5053
+2023-01-11 08:17:52.331 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-11 08:17:52.332 +02:00 [INF] Hosting environment: Development
+2023-01-11 08:17:52.333 +02:00 [INF] Content root path: C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API\
+2023-01-11 08:17:54.559 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET v{version}/countries" for actions - HotelListing.API.Controllers.CountriesController.GetCountries (HotelListing.API),HotelListing.API.Controllers.CountriesController.GetPagedCountries (HotelListing.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-01-11 08:23:45.914 +02:00 [INF] Now listening on: https://localhost:7053
+2023-01-11 08:23:45.988 +02:00 [INF] Now listening on: http://localhost:5053
+2023-01-11 08:23:45.998 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-11 08:23:46.002 +02:00 [INF] Hosting environment: Development
+2023-01-11 08:23:46.004 +02:00 [INF] Content root path: C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API\
+2023-01-11 08:23:48.321 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET v{version}/countries" for actions - HotelListing.API.Controllers.CountriesController.GetCountries (HotelListing.API),HotelListing.API.Controllers.CountriesController.GetPagedCountries (HotelListing.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-01-11 08:52:11.429 +02:00 [INF] Now listening on: https://localhost:7053
+2023-01-11 08:52:11.485 +02:00 [INF] Now listening on: http://localhost:5053
+2023-01-11 08:52:11.493 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-11 08:52:11.494 +02:00 [INF] Hosting environment: Development
+2023-01-11 08:52:11.495 +02:00 [INF] Content root path: C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API\
+2023-01-11 08:52:13.962 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET v{version}/countries" for actions - HotelListing.API.Controllers.CountriesController.GetCountries (HotelListing.API),HotelListing.API.Controllers.CountriesController.GetPagedCountries (HotelListing.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-01-11 08:54:37.406 +02:00 [INF] Now listening on: https://localhost:7053
+2023-01-11 08:54:37.502 +02:00 [INF] Now listening on: http://localhost:5053
+2023-01-11 08:54:37.520 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-11 08:54:37.525 +02:00 [INF] Hosting environment: Development
+2023-01-11 08:54:37.527 +02:00 [INF] Content root path: C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API\
+2023-01-11 08:54:40.103 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET v{version}/countries" for actions - HotelListing.API.Controllers.CountriesController.GetCountries (HotelListing.API),HotelListing.API.Controllers.CountriesController.GetPagedCountries (HotelListing.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-01-11 10:45:40.437 +02:00 [INF] Now listening on: https://localhost:7053
+2023-01-11 10:45:40.498 +02:00 [INF] Now listening on: http://localhost:5053
+2023-01-11 10:45:40.508 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-11 10:45:40.510 +02:00 [INF] Hosting environment: Development
+2023-01-11 10:45:40.511 +02:00 [INF] Content root path: C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API\
+2023-01-11 10:45:43.096 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET v{version}/countries" for actions - HotelListing.API.Controllers.CountriesController.GetCountries (HotelListing.API),HotelListing.API.Controllers.CountriesController.GetPagedCountries (HotelListing.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-01-11 15:51:51.593 +02:00 [INF] Now listening on: https://localhost:7053
+2023-01-11 15:51:51.759 +02:00 [INF] Now listening on: http://localhost:5053
+2023-01-11 15:51:51.830 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-11 15:51:51.834 +02:00 [INF] Hosting environment: Development
+2023-01-11 15:51:51.838 +02:00 [INF] Content root path: C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API\
+2023-01-11 15:51:53.414 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET v{version}/countries" for actions - HotelListing.API.Controllers.CountriesController.GetCountries (HotelListing.API),HotelListing.API.Controllers.CountriesController.GetPagedCountries (HotelListing.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-01-11 15:56:03.351 +02:00 [INF] Now listening on: https://localhost:7053
+2023-01-11 15:56:03.552 +02:00 [INF] Now listening on: http://localhost:5053
+2023-01-11 15:56:03.743 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-11 15:56:03.768 +02:00 [INF] Hosting environment: Development
+2023-01-11 15:56:03.772 +02:00 [INF] Content root path: C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API\
+2023-01-11 16:01:08.548 +02:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2023-01-11 16:01:08.564 +02:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.

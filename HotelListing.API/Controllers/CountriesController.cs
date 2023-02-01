@@ -13,6 +13,7 @@ using HotelListing.API.Contracts;
 using Microsoft.AspNetCore.Authorization;
 using HotelListing.API.Exceptions;
 using Google.Apis.Admin.Directory.directory_v1.Data;
+using HotelListing.API.Models;
 
 namespace HotelListing.API.Controllers
 {
@@ -34,14 +35,23 @@ namespace HotelListing.API.Controllers
             this._countriesRepository = countriesRepository;
         }
 
-        // GET: api/Countries
-        [HttpGet]
+        // GET: api/Countries/GetAll
+        [HttpGet("GetAll")]
         public async Task<ActionResult<IEnumerable<GetCountryDto>>> GetCountries()
         {
             var countries = await _countriesRepository.GetAllAsync();
             var records = _mapper.Map<List<GetCountryDto>>(countries);
 
             return Ok(records);
+        }
+
+        //My URL should be looking like this
+        // GET: api/Countries/?StartIndex=0&pagesize=25&PageNumber=1
+        [HttpGet]
+        public async Task<ActionResult<PagedResult <GetCountryDto>>> GetPagedCountries([FromQuery] QueryParameters queryParameters)
+        {
+            var pagedCountriesResult = await _countriesRepository.GetAllAsync<GetCountryDto>(queryParameters);//This returns the paged results of type getcountriesDto
+            return Ok(pagedCountriesResult);
         }
 
         // GET: api/Countries/5

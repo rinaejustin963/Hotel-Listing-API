@@ -54,7 +54,7 @@
             },
             "Google.Apis.Admin.Directory.directory_v1": {
               "target": "Package",
-              "version": "[1.57.0.2869, )"
+              "version": "[1.58.0.2924, )"
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
@@ -72,29 +72,33 @@
               "target": "Package",
               "version": "[5.0.0, )"
             },
+            "Microsoft.AspNetCore.OData": {
+              "target": "Package",
+              "version": "[8.0.12, )"
+            },
             "Microsoft.AspNetCore.Razor.Design": {
               "target": "Package",
               "version": "[2.2.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[7.0.2, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[7.0.2, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[7.0.2, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[7.0.2, )"
             },
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
@@ -118,7 +122,7 @@
             },
             "Serilog.AspNetCore": {
               "target": "Package",
-              "version": "[6.0.1, )"
+              "version": "[6.1.0, )"
             },
             "Serilog.Expressions": {
               "target": "Package",
@@ -126,11 +130,11 @@
             },
             "Serilog.Sinks.Seq": {
               "target": "Package",
-              "version": "[5.2.1, )"
+              "version": "[5.2.2, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.4.0, )"
+              "version": "[6.5.0, )"
             }
           },
           "imports": [

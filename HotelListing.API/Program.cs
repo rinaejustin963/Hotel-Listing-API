@@ -12,6 +12,7 @@ using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using HotelListing.API.Middleware;
 using Microsoft.AspNetCore.Mvc.Versioning;
+using Microsoft.AspNetCore.OData;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -93,6 +94,12 @@ builder.Services.AddResponseCaching(options =>
     options.UseCaseSensitivePaths = true;
 }
 );
+
+builder.Services.AddControllers().AddOData(options =>
+{
+    //OData helps by creating Sorting, Searching and ordering effortlessly
+    options.Select().Filter().OrderBy();
+});
 
 
 var app = builder.Build();

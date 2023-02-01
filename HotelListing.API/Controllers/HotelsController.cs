@@ -10,31 +10,42 @@ using HotelListing.API.Contracts;
 using AutoMapper;
 using HotelListing.API.Models.Hotel;
 using Microsoft.AspNetCore.Authorization;
+using HotelListing.API.Models;
 
 namespace HotelListing.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
+    
     public class HotelsController : ControllerBase
     {
         private readonly IHotelsRepository _hotelsRepository;
         private readonly IMapper _mapper;
+        private readonly ILogger<HotelsController> _logger;
 
-        public HotelsController(IHotelsRepository hotelsRepository, IMapper mapper)
+        public HotelsController(IHotelsRepository hotelsRepository, IMapper mapper, ILogger<HotelsController> logger)
         {
             this._hotelsRepository = hotelsRepository; 
-            this._mapper = mapper;  
+            this._mapper = mapper;
+            this._logger = logger;
         }
 
-        // GET: api/Hotels
-        [HttpGet]
+        // GET: api/Hotels/GetAll
+        [HttpGet("GetAll")]
+        
         public async Task<ActionResult<IEnumerable<Hotel>>> GetHotels()
         {
           var hotels = await _hotelsRepository.GetAllAsync();
           return Ok(_mapper.Map<List<HotelDto>>(hotels));
         }
 
+        // GET: api/Hotels/?StartIndex=0&pagesize=25&PageNumber=1
+        [HttpGet]
+        public async Task<ActionResult<PagedResult<HotelDto>>> GetPagedHotels([FromQuery] QueryParameters queryParameters)
+        {
+            var pagedHotelsResult = await _hotelsRepository.GetAllAsync<HotelDto>(queryParameters);
+            return Ok(pagedHotelsResult);
+        }
         // GET: api/Hotels/5
         [HttpGet("{id}")]
         public async Task<ActionResult<Hotel>> GetHotel(int id)
