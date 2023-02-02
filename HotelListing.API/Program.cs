@@ -1,16 +1,16 @@
 using Microsoft.EntityFrameworkCore;
 using Serilog;
 using HotelListing.API.Data;
-using HotelListing.API.Configurations;
-using HotelListing.API.Repository;
-using HotelListing.API.Contracts;
+using HotelListing.API.Core.Configurations;
+using HotelListing.API.Core.Repository;
+using HotelListing.API.Core.Contracts;
 using Microsoft.Extensions.DependencyInjection;
 using AutoMapper;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
-using HotelListing.API.Middleware;
+using HotelListing.API.Core.Middleware;
 using Microsoft.AspNetCore.Mvc.Versioning;
 using Microsoft.AspNetCore.OData;
 
@@ -60,7 +60,9 @@ builder.Services.AddVersionedApiExplorer(
 
 //Adding a configuration so that serilog will be up and running when the app starts to run.
 //ctx-context   lc-logging context
-builder.Host.UseSerilog((ctx, lc) => lc.WriteTo.Console().ReadFrom.Configuration(ctx.Configuration));
+
+//Recheck this!!!
+//builder.Host.UseSerilog((ctx, lc) => lc.WriteTo.Console().ReadFrom.Configuration(ctx.Configuration));
 
 //Injection to AutoMApper so that it can be used anywhere
 builder.Services.AddAutoMapper(typeof(MapperConfig));

@@ -1,0 +1,12 @@
+C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API.Data\bin\Debug\net6.0\HotelListing.API.Data.deps.json
+C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API.Data\bin\Debug\net6.0\HotelListing.API.Data.dll
+C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API.Data\bin\Debug\net6.0\HotelListing.API.Data.pdb
+C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API.Data\obj\Debug\net6.0\HotelListing.API.Data.csproj.AssemblyReference.cache
+C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API.Data\obj\Debug\net6.0\HotelListing.API.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API.Data\obj\Debug\net6.0\HotelListing.API.Data.AssemblyInfoInputs.cache
+C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API.Data\obj\Debug\net6.0\HotelListing.API.Data.AssemblyInfo.cs
+C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API.Data\obj\Debug\net6.0\HotelListing.API.Data.csproj.CoreCompileInputs.cache
+C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API.Data\obj\Debug\net6.0\HotelListing.API.Data.dll
+C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API.Data\obj\Debug\net6.0\refint\HotelListing.API.Data.dll
+C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API.Data\obj\Debug\net6.0\HotelListing.API.Data.pdb
+C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API.Data\obj\Debug\net6.0\ref\HotelListing.API.Data.dll

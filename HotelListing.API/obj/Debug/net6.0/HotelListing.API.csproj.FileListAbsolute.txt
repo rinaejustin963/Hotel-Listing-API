@@ -364,14 +364,10 @@ C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API\bin\Debu
 C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API\bin\Debug\net6.0\Microsoft.OpenApi.dll
 C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API\bin\Debug\net6.0\Serilog.dll
-C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API\bin\Debug\net6.0\Serilog.AspNetCore.dll
-C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API\bin\Debug\net6.0\Serilog.Expressions.dll
 C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API\bin\Debug\net6.0\Serilog.Extensions.Hosting.dll
 C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API\bin\Debug\net6.0\Serilog.Extensions.Logging.dll
 C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API\bin\Debug\net6.0\Serilog.Formatting.Compact.dll
-C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API\bin\Debug\net6.0\Serilog.Settings.Configuration.dll
 C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API\bin\Debug\net6.0\Serilog.Sinks.Console.dll
-C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API\bin\Debug\net6.0\Serilog.Sinks.Debug.dll
 C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API\bin\Debug\net6.0\Serilog.Sinks.File.dll
 C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API\bin\Debug\net6.0\Serilog.Sinks.PeriodicBatching.dll
 C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API\bin\Debug\net6.0\Serilog.Sinks.Seq.dll
@@ -650,3 +646,8 @@ C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API\bin\Debu
 C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API\bin\Debug\net6.0\Microsoft.OData.Edm.dll
 C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API\bin\Debug\net6.0\Microsoft.OData.ModelBuilder.dll
 C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API\bin\Debug\net6.0\Microsoft.Spatial.dll
+C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API\bin\Debug\net6.0\HotelListing.API.Core.dll
+C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API\bin\Debug\net6.0\HotelListing.API.Data.dll
+C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API\bin\Debug\net6.0\HotelListing.API.Core.pdb
+C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API\bin\Debug\net6.0\HotelListing.API.Data.pdb

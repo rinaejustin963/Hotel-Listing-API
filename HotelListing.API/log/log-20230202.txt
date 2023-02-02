@@ -12,3 +12,23 @@
 2023-02-02 00:52:38.397 +02:00 [INF] Content root path: C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API\
 2023-02-02 00:54:01.227 +02:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
 2023-02-02 00:54:01.237 +02:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2023-02-02 01:44:55.808 +02:00 [INF] Now listening on: https://localhost:7053
+2023-02-02 01:44:55.895 +02:00 [INF] Now listening on: http://localhost:5053
+2023-02-02 01:44:55.908 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-02 01:44:55.911 +02:00 [INF] Hosting environment: Development
+2023-02-02 01:44:55.913 +02:00 [INF] Content root path: C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API\
+2023-02-02 01:46:06.794 +02:00 [INF] Now listening on: https://localhost:7053
+2023-02-02 01:46:06.913 +02:00 [INF] Now listening on: http://localhost:5053
+2023-02-02 01:46:06.934 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-02 01:46:06.937 +02:00 [INF] Hosting environment: Development
+2023-02-02 01:46:06.939 +02:00 [INF] Content root path: C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API\
+2023-02-02 02:28:50.613 +02:00 [INF] Now listening on: https://localhost:7053
+2023-02-02 02:28:50.692 +02:00 [INF] Now listening on: http://localhost:5053
+2023-02-02 02:28:50.705 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-02 02:28:50.708 +02:00 [INF] Hosting environment: Development
+2023-02-02 02:28:50.710 +02:00 [INF] Content root path: C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API\
+2023-02-02 02:39:10.374 +02:00 [INF] Now listening on: https://localhost:7053
+2023-02-02 02:39:10.547 +02:00 [INF] Now listening on: http://localhost:5053
+2023-02-02 02:39:10.565 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-02 02:39:10.567 +02:00 [INF] Hosting environment: Development
+2023-02-02 02:39:10.570 +02:00 [INF] Content root path: C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API\

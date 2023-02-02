@@ -1,0 +1,15 @@
+C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API.Core\bin\Debug\net6.0\HotelListing.API.Core.deps.json
+C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API.Core\bin\Debug\net6.0\HotelListing.API.Core.dll
+C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API.Core\bin\Debug\net6.0\HotelListing.API.Core.pdb
+C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API.Core\bin\Debug\net6.0\HotelListing.API.Data.dll
+C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API.Core\bin\Debug\net6.0\HotelListing.API.Data.pdb
+C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API.Core\obj\Debug\net6.0\HotelListing.API.Core.csproj.AssemblyReference.cache
+C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API.Core\obj\Debug\net6.0\HotelListing.API.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API.Core\obj\Debug\net6.0\HotelListing.API.Core.AssemblyInfoInputs.cache
+C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API.Core\obj\Debug\net6.0\HotelListing.API.Core.AssemblyInfo.cs
+C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API.Core\obj\Debug\net6.0\HotelListing.API.Core.csproj.CoreCompileInputs.cache
+C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API.Core\obj\Debug\net6.0\HotelListing.API.Core.csproj.CopyComplete
+C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API.Core\obj\Debug\net6.0\HotelListing.API.Core.dll
+C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API.Core\obj\Debug\net6.0\refint\HotelListing.API.Core.dll
+C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API.Core\obj\Debug\net6.0\HotelListing.API.Core.pdb
+C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API.Core\obj\Debug\net6.0\ref\HotelListing.API.Core.dll

@@ -11,6 +11,7 @@
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.0",
           "EntityFramework": "6.4.4",
           "Google.Apis.Admin.Directory.directory_v1": "1.58.0.2924",
+          "HotelListing.API.Core": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.9",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.9",
           "Microsoft.AspNetCore.Mvc.Versioning": "5.0.0",
@@ -19,15 +20,15 @@
           "Microsoft.AspNetCore.Razor.Design": "2.2.0",
           "Microsoft.EntityFrameworkCore": "7.0.2",
           "Microsoft.EntityFrameworkCore.Design": "7.0.2",
-          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.2",
           "Microsoft.EntityFrameworkCore.Tools": "7.0.2",
+          "Microsoft.Extensions.Configuration": "7.0.0",
           "Microsoft.Extensions.DependencyInjection": "7.0.0",
           "Microsoft.Extensions.Logging": "7.0.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.10",
           "NuGet.Build": "2.12.1",
           "NuGetPowerTools": "0.29.0",
-          "Serilog.AspNetCore": "6.1.0",
-          "Serilog.Expressions": "3.4.1",
+          "Serilog.Extensions.Hosting": "5.0.1",
+          "Serilog.Sinks.Console": "4.1.0",
           "Serilog.Sinks.Seq": "5.2.2",
           "Swashbuckle.AspNetCore": "6.5.0"
         },
@@ -1195,9 +1196,16 @@
           }
         }
       },
-      "Microsoft.Extensions.Configuration/2.0.0": {
+      "Microsoft.Extensions.Configuration/7.0.0": {
         "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0"
+          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0",
+          "Microsoft.Extensions.Primitives": "7.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Configuration.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
         }
       },
       "Microsoft.Extensions.Configuration.Abstractions/7.0.0": {
@@ -1209,11 +1217,6 @@
             "assemblyVersion": "7.0.0.0",
             "fileVersion": "7.0.22.51805"
           }
-        }
-      },
-      "Microsoft.Extensions.Configuration.Binder/2.0.0": {
-        "dependencies": {
-          "Microsoft.Extensions.Configuration": "2.0.0"
         }
       },
       "Microsoft.Extensions.DependencyInjection/7.0.0": {
@@ -1318,14 +1321,6 @@
             "assemblyVersion": "7.0.0.0",
             "fileVersion": "7.0.22.51805"
           }
-        }
-      },
-      "Microsoft.Extensions.Options.ConfigurationExtensions/2.0.0": {
-        "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0",
-          "Microsoft.Extensions.Configuration.Binder": "2.0.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0",
-          "Microsoft.Extensions.Options": "7.0.0"
         }
       },
       "Microsoft.Extensions.Primitives/7.0.0": {
@@ -1931,36 +1926,6 @@
           }
         }
       },
-      "Serilog.AspNetCore/6.1.0": {
-        "dependencies": {
-          "Microsoft.Extensions.DependencyInjection": "7.0.0",
-          "Microsoft.Extensions.Logging": "7.0.0",
-          "Serilog": "2.12.0",
-          "Serilog.Extensions.Hosting": "5.0.1",
-          "Serilog.Formatting.Compact": "1.1.0",
-          "Serilog.Settings.Configuration": "3.3.0",
-          "Serilog.Sinks.Console": "4.0.1",
-          "Serilog.Sinks.Debug": "2.0.0",
-          "Serilog.Sinks.File": "5.0.0"
-        },
-        "runtime": {
-          "lib/net5.0/Serilog.AspNetCore.dll": {
-            "assemblyVersion": "2.0.0.0",
-            "fileVersion": "6.1.0.0"
-          }
-        }
-      },
-      "Serilog.Expressions/3.4.1": {
-        "dependencies": {
-          "Serilog": "2.12.0"
-        },
-        "runtime": {
-          "lib/net5.0/Serilog.Expressions.dll": {
-            "assemblyVersion": "3.4.1.0",
-            "fileVersion": "3.4.1.0"
-          }
-        }
-      },
       "Serilog.Extensions.Hosting/5.0.1": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0",
@@ -1999,38 +1964,14 @@
           }
         }
       },
-      "Serilog.Settings.Configuration/3.3.0": {
-        "dependencies": {
-          "Microsoft.Extensions.DependencyModel": "7.0.0",
-          "Microsoft.Extensions.Options.ConfigurationExtensions": "2.0.0",
-          "Serilog": "2.12.0"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Serilog.Settings.Configuration.dll": {
-            "assemblyVersion": "3.3.0.0",
-            "fileVersion": "3.3.0.0"
-          }
-        }
-      },
-      "Serilog.Sinks.Console/4.0.1": {
+      "Serilog.Sinks.Console/4.1.0": {
         "dependencies": {
           "Serilog": "2.12.0"
         },
         "runtime": {
           "lib/net5.0/Serilog.Sinks.Console.dll": {
-            "assemblyVersion": "4.0.1.0",
-            "fileVersion": "4.0.1.0"
-          }
-        }
-      },
-      "Serilog.Sinks.Debug/2.0.0": {
-        "dependencies": {
-          "Serilog": "2.12.0"
-        },
-        "runtime": {
-          "lib/netstandard2.1/Serilog.Sinks.Debug.dll": {
-            "assemblyVersion": "2.0.0.0",
-            "fileVersion": "2.0.0.0"
+            "assemblyVersion": "4.1.0.0",
+            "fileVersion": "4.1.0.0"
           }
         }
       },
@@ -2954,6 +2895,31 @@
           "System.Threading": "4.3.0",
           "System.Xml.ReaderWriter": "4.3.0"
         }
+      },
+      "HotelListing.API.Core/1.0.0": {
+        "dependencies": {
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.0",
+          "HotelListing.API.Data": "1.0.0",
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.9",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.9",
+          "Microsoft.Extensions.Configuration": "7.0.0",
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.10",
+          "Serilog.Sinks.Seq": "5.2.2"
+        },
+        "runtime": {
+          "HotelListing.API.Core.dll": {}
+        }
+      },
+      "HotelListing.API.Data/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.9",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.2",
+          "Microsoft.Extensions.Configuration": "7.0.0",
+          "Serilog.Sinks.Seq": "5.2.2"
+        },
+        "runtime": {
+          "HotelListing.API.Data.dll": {}
+        }
       }
     }
   },
@@ -3348,12 +3314,12 @@
       "path": "microsoft.extensions.caching.memory/7.0.0",
       "hashPath": "microsoft.extensions.caching.memory.7.0.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.Configuration/2.0.0": {
+    "Microsoft.Extensions.Configuration/7.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-SsI4RqI8EH00+cYO96tbftlh87sNUv1eeyuBU1XZdQkG0RrHAOjWgl7P0FoLeTSMXJpOnfweeOWj2d1/5H3FxA==",
-      "path": "microsoft.extensions.configuration/2.0.0",
-      "hashPath": "microsoft.extensions.configuration.2.0.0.nupkg.sha512"
+      "sha512": "sha512-tldQUBWt/xeH2K7/hMPPo5g8zuLc3Ro9I5d4o/XrxvxOCA2EZBtW7bCHHTc49fcBtvB8tLAb/Qsmfrq+2SJ4vA==",
+      "path": "microsoft.extensions.configuration/7.0.0",
+      "hashPath": "microsoft.extensions.configuration.7.0.0.nupkg.sha512"
     },
     "Microsoft.Extensions.Configuration.Abstractions/7.0.0": {
       "type": "package",
@@ -3361,13 +3327,6 @@
       "sha512": "sha512-f34u2eaqIjNO9YLHBz8rozVZ+TcFiFs0F3r7nUJd7FRkVSxk8u4OpoK226mi49MwexHOR2ibP9MFvRUaLilcQQ==",
       "path": "microsoft.extensions.configuration.abstractions/7.0.0",
       "hashPath": "microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512"
-    },
-    "Microsoft.Extensions.Configuration.Binder/2.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-IznHHzGUtrdpuQqIUdmzF6TYPcsYHONhHh3o9dGp39sX/9Zfmt476UnhvU0UhXgJnXXAikt/MpN6AuSLCCMdEQ==",
-      "path": "microsoft.extensions.configuration.binder/2.0.0",
-      "hashPath": "microsoft.extensions.configuration.binder.2.0.0.nupkg.sha512"
     },
     "Microsoft.Extensions.DependencyInjection/7.0.0": {
       "type": "package",
@@ -3438,13 +3397,6 @@
       "sha512": "sha512-lP1yBnTTU42cKpMozuafbvNtQ7QcBjr/CcK3bYOGEMH55Fjt+iecXjT6chR7vbgCMqy3PG3aNQSZgo/EuY/9qQ==",
       "path": "microsoft.extensions.options/7.0.0",
       "hashPath": "microsoft.extensions.options.7.0.0.nupkg.sha512"
-    },
-    "Microsoft.Extensions.Options.ConfigurationExtensions/2.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-Y/lGICwO27fCkQRK3tZseVzFjZaxfGmui990E67sB4MuiPzdJHnJDS/BeYWrHShSSBgCl4KyKRx4ux686fftPg==",
-      "path": "microsoft.extensions.options.configurationextensions/2.0.0",
-      "hashPath": "microsoft.extensions.options.configurationextensions.2.0.0.nupkg.sha512"
     },
     "Microsoft.Extensions.Primitives/7.0.0": {
       "type": "package",
@@ -3901,20 +3853,6 @@
       "path": "serilog/2.12.0",
       "hashPath": "serilog.2.12.0.nupkg.sha512"
     },
-    "Serilog.AspNetCore/6.1.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-iMwFUJDN+/yWIPz4TKCliagJ1Yn//SceCYCzgdPwe/ECYUwb5/WUL8cTzRKV+tFwxGjLEV/xpm0GupS5RwbhSQ==",
-      "path": "serilog.aspnetcore/6.1.0",
-      "hashPath": "serilog.aspnetcore.6.1.0.nupkg.sha512"
-    },
-    "Serilog.Expressions/3.4.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-0gcR+7/0g4WYQlbxWWuTNYdUkrwHdnD60it4kY9yX3Djm1DFcrHRO6gynYaxPb8vcPFuGRZwpA2mowCFRm6MYg==",
-      "path": "serilog.expressions/3.4.1",
-      "hashPath": "serilog.expressions.3.4.1.nupkg.sha512"
-    },
     "Serilog.Extensions.Hosting/5.0.1": {
       "type": "package",
       "serviceable": true,
@@ -3936,26 +3874,12 @@
       "path": "serilog.formatting.compact/1.1.0",
       "hashPath": "serilog.formatting.compact.1.1.0.nupkg.sha512"
     },
-    "Serilog.Settings.Configuration/3.3.0": {
+    "Serilog.Sinks.Console/4.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-7GNudISZwqaT902hqEL2OFGTZeUFWfnrNLupJkOqeF41AR3GjcxX+Hwb30xb8gG2/CDXsCMVfF8o0+8KY0fJNg==",
-      "path": "serilog.settings.configuration/3.3.0",
-      "hashPath": "serilog.settings.configuration.3.3.0.nupkg.sha512"
-    },
-    "Serilog.Sinks.Console/4.0.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-apLOvSJQLlIbKlbx+Y2UDHSP05kJsV7mou+fvJoRGs/iR+jC22r8cuFVMjjfVxz/AD4B2UCltFhE1naRLXwKNw==",
-      "path": "serilog.sinks.console/4.0.1",
-      "hashPath": "serilog.sinks.console.4.0.1.nupkg.sha512"
-    },
-    "Serilog.Sinks.Debug/2.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-Y6g3OBJ4JzTyyw16fDqtFcQ41qQAydnEvEqmXjhwhgjsnG/FaJ8GUqF5ldsC/bVkK8KYmqrPhDO+tm4dF6xx4A==",
-      "path": "serilog.sinks.debug/2.0.0",
-      "hashPath": "serilog.sinks.debug.2.0.0.nupkg.sha512"
+      "sha512": "sha512-K6N5q+5fetjnJPvCmkWOpJ/V8IEIoMIB1s86OzBrbxwTyHxdx3pmz4H+8+O/Dc/ftUX12DM1aynx/dDowkwzqg==",
+      "path": "serilog.sinks.console/4.1.0",
+      "hashPath": "serilog.sinks.console.4.1.0.nupkg.sha512"
     },
     "Serilog.Sinks.File/5.0.0": {
       "type": "package",
@@ -4600,6 +4524,16 @@
       "sha512": "sha512-5zJ0XDxAIg8iy+t4aMnQAu0MqVbqyvfoUVl1yDV61xdo3Vth45oA2FoY4pPkxYAH5f8ixpmTqXeEIya95x0aCQ==",
       "path": "system.xml.xdocument/4.3.0",
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
+    },
+    "HotelListing.API.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HotelListing.API.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

@@ -4,6 +4,170 @@
     "C:\\Users\\justi\\source\\repos\\rinae963\\Hotel-Listing-API\\HotelListing.API\\HotelListing.API.csproj": {}
   },
   "projects": {
+    "C:\\Users\\justi\\source\\repos\\rinae963\\Hotel-Listing-API\\HotelListing.API.Core\\HotelListing.API.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\justi\\source\\repos\\rinae963\\Hotel-Listing-API\\HotelListing.API.Core\\HotelListing.API.Core.csproj",
+        "projectName": "HotelListing.API.Core",
+        "projectPath": "C:\\Users\\justi\\source\\repos\\rinae963\\Hotel-Listing-API\\HotelListing.API.Core\\HotelListing.API.Core.csproj",
+        "packagesPath": "C:\\Users\\justi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\justi\\source\\repos\\rinae963\\Hotel-Listing-API\\HotelListing.API.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "A:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\justi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\justi\\source\\repos\\rinae963\\Hotel-Listing-API\\HotelListing.API.Data\\HotelListing.API.Data.csproj": {
+                "projectPath": "C:\\Users\\justi\\source\\repos\\rinae963\\Hotel-Listing-API\\HotelListing.API.Data\\HotelListing.API.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Serilog.Sinks.Seq": {
+              "target": "Package",
+              "version": "[5.2.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\justi\\source\\repos\\rinae963\\Hotel-Listing-API\\HotelListing.API.Data\\HotelListing.API.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\justi\\source\\repos\\rinae963\\Hotel-Listing-API\\HotelListing.API.Data\\HotelListing.API.Data.csproj",
+        "projectName": "HotelListing.API.Data",
+        "projectPath": "C:\\Users\\justi\\source\\repos\\rinae963\\Hotel-Listing-API\\HotelListing.API.Data\\HotelListing.API.Data.csproj",
+        "packagesPath": "C:\\Users\\justi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\justi\\source\\repos\\rinae963\\Hotel-Listing-API\\HotelListing.API.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "A:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\justi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Serilog.Sinks.Seq": {
+              "target": "Package",
+              "version": "[5.2.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\justi\\source\\repos\\rinae963\\Hotel-Listing-API\\HotelListing.API\\HotelListing.API.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -31,7 +195,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\justi\\source\\repos\\rinae963\\Hotel-Listing-API\\HotelListing.API.Core\\HotelListing.API.Core.csproj": {
+                "projectPath": "C:\\Users\\justi\\source\\repos\\rinae963\\Hotel-Listing-API\\HotelListing.API.Core\\HotelListing.API.Core.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -90,15 +258,15 @@
               "target": "Package",
               "version": "[7.0.2, )"
             },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[7.0.2, )"
-            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.2, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             },
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
@@ -120,13 +288,13 @@
               "target": "Package",
               "version": "[0.29.0, )"
             },
-            "Serilog.AspNetCore": {
+            "Serilog.Extensions.Hosting": {
               "target": "Package",
-              "version": "[6.1.0, )"
+              "version": "[5.0.1, )"
             },
-            "Serilog.Expressions": {
+            "Serilog.Sinks.Console": {
               "target": "Package",
-              "version": "[3.4.1, )"
+              "version": "[4.1.0, )"
             },
             "Serilog.Sinks.Seq": {
               "target": "Package",
