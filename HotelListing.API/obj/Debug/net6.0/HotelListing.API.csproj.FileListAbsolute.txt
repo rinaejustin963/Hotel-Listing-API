@@ -656,3 +656,6 @@ C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API\bin\Debu
 C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
 C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
 C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API\bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API\bin\Debug\net6.0\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API\bin\Debug\net6.0\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+C:\Users\justi\source\repos\rinae963\Hotel-Listing-API\HotelListing.API\bin\Debug\net6.0\Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore.dll
