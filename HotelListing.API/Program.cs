@@ -13,6 +13,7 @@ using System.Text;
 using HotelListing.API.Core.Middleware;
 using Microsoft.AspNetCore.Mvc.Versioning;
 using Microsoft.AspNetCore.OData;
+using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -32,7 +33,39 @@ builder.Services.AddIdentityCore<ApiUser>()
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(options =>
+{
+    options.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "Hotel Listing API", Version = "v1" });
+    options.AddSecurityDefinition(JwtBearerDefaults.AuthenticationScheme, new OpenApiSecurityScheme
+    {
+        Description = @"JWT Authorization header using the Bearer scheme.
+Enter 'Bearer' [space] and then your token in the text input below.
+Example: 'Bearer 12345abcdef'",//instruction when testing
+        Name = "Authorization",
+        In = ParameterLocation.Header,
+        Type = SecuritySchemeType.ApiKey,
+        Scheme = JwtBearerDefaults.AuthenticationScheme
+    });
+
+    //Adding the actual security requirements
+    options.AddSecurityRequirement(new OpenApiSecurityRequirement
+    {
+        {
+            new OpenApiSecurityScheme
+            {
+                Reference = new OpenApiReference
+                {
+                    Type = ReferenceType.SecurityScheme,
+                    Id = JwtBearerDefaults.AuthenticationScheme
+                },
+            Scheme = "0auth2",
+            Name = JwtBearerDefaults.AuthenticationScheme,
+            In = ParameterLocation.Header
+            },
+            new List<string>()
+        }
+    });
+});
 //cross-origin resource sharing, allows restricted resources to be requested from another domain.
 builder.Services.AddCors(options =>
 {
