@@ -39,10 +39,8 @@ namespace HotelListing.API.Controllers
         [HttpGet("GetAll")]
         public async Task<ActionResult<IEnumerable<GetCountryDto>>> GetCountries()
         {
-            var countries = await _countriesRepository.GetAllAsync();
-            var records = _mapper.Map<List<GetCountryDto>>(countries);
-
-            return Ok(records);
+            var countries = await _countriesRepository.GetAllAsync<GetCountryDto>();
+            return Ok(countries);
         }
 
         //My URL should be looking like this
@@ -60,15 +58,7 @@ namespace HotelListing.API.Controllers
         {
             //This is basically more like an inner join
             var country = await _countriesRepository.GetDetails(id);
-
-            if (country == null)
-            {
-                throw new NotFoundException(nameof(GetCountries), id);
-            }
-
-            var countryDto = _mapper.Map<CountryDto>(country);
-
-            return Ok(countryDto);
+            return Ok(country);
         }
 
         // PUT: api/Countries/5
@@ -81,23 +71,10 @@ namespace HotelListing.API.Controllers
             {
                 return BadRequest("Invalid Id specified");
             }
-
-            //_context.Entry(updateCountryDto).State = EntityState.Modified;
-
-            //Retrieving the country from countries Table
-            var country = await _countriesRepository.GetAsync(id);
-
-            if (country == null)
-            {
-                throw new NotFoundException(nameof(GetCountries), id);
-            }
-
-            _mapper.Map(updateCountryDto, country);
-
             try
             {
-                await _countriesRepository.UpdateAsync(country);
-            }
+                await _countriesRepository.UpdateAsync(id, updateCountryDto);
+            }  
             catch (DbUpdateConcurrencyException)
             {
                 if (!await CountryExists(id))
@@ -117,26 +94,17 @@ namespace HotelListing.API.Controllers
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
         [Authorize]
-        public async Task<ActionResult<Country>> PostCountry(CreateCountryDto createCountryDto)
+        public async Task<ActionResult<CountryDto>> PostCountry(CreateCountryDto createCountryDto)
         {
-            var country = _mapper.Map<Country>(createCountryDto);
-            //context, go to this table then add this context
-            await _countriesRepository.AddAsync(country);
-            return CreatedAtAction("GetCountry", new { id = country.Id }, country);
+            var country = await _countriesRepository.AddAsync<CreateCountryDto, GetCountryDto>(createCountryDto);
+            return CreatedAtAction(nameof(GetCountry), new { id = country.Id }, country);
         }
 
         // DELETE: api/Countries/5
         [HttpDelete("{id}")]
-        [Authorize]
-        //(Roles = "Administrator")
+        [Authorize(Roles = "Administrator")]
         public async Task<IActionResult> DeleteCountry(int id)
         {
-            var country = await _countriesRepository.GetAsync(id);
-            if (country == null)
-            {
-                return NotFound();
-            }
-
             await _countriesRepository.DeleteAsync(id);
 
             return NoContent();

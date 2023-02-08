@@ -1,0 +1,348 @@
+﻿++Solution 'HotelListing' ‎(3 of 3 projects)
+i:{00000000-0000-0000-0000-000000000000}:HotelListing.sln
+++HotelListing.API
+i:{00000000-0000-0000-0000-000000000000}:HotelListing.API
+++Connected Services 
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:>1167
+++Dependencies
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:>1166
+i:{327241fd-3bf4-4569-9044-d8eac81f80ec}:>702
+i:{eadf36ff-bbb8-41be-83ab-639188a6ab1b}:>703
+++Properties
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api\properties\
+++launchSettings.json
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api\properties\launchsettings.json
+++Controllers
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api\controllers\
+++AuthController.cs
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api\controllers\authcontroller.cs
+++CountriesController.cs
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api\controllers\countriescontroller.cs
+++CountriesV2Controller.cs
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api\controllers\countriesv2controller.cs
+++HotelsController.cs
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api\controllers\hotelscontroller.cs
+++WeatherForecastController.cs
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api\controllers\weatherforecastcontroller.cs
+++log
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api\log\
+++Views
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api\views\
+++appsettings.json
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api\appsettings.json
+++Program.cs
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api\program.cs
+++WeatherForecast.cs
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api\weatherforecast.cs
+++No service dependencies discovered
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:>1168
+++Analyzers
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:analyzers
+i:{327241fd-3bf4-4569-9044-d8eac81f80ec}:analyzers
+i:{eadf36ff-bbb8-41be-83ab-639188a6ab1b}:analyzers
+++Frameworks
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:frameworks
+i:{327241fd-3bf4-4569-9044-d8eac81f80ec}:frameworks
+i:{eadf36ff-bbb8-41be-83ab-639188a6ab1b}:frameworks
+++Packages
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:packages
+i:{327241fd-3bf4-4569-9044-d8eac81f80ec}:packages
+i:{eadf36ff-bbb8-41be-83ab-639188a6ab1b}:packages
+++Projects
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:projects
+i:{eadf36ff-bbb8-41be-83ab-639188a6ab1b}:projects
+++log-20220816.txt
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api\log\log-20220816.txt
+++log-20220818.txt
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api\log\log-20220818.txt
+++log-20220819.txt
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api\log\log-20220819.txt
+++log-20220822.txt
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api\log\log-20220822.txt
+++log-20220825.txt
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api\log\log-20220825.txt
+++log-20220826.txt
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api\log\log-20220826.txt
+++log-20220914.txt
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api\log\log-20220914.txt
+++log-20220915.txt
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api\log\log-20220915.txt
+++log-20220921.txt
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api\log\log-20220921.txt
+++log-20220925.txt
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api\log\log-20220925.txt
+++log-20221006.txt
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api\log\log-20221006.txt
+++log-20221007.txt
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api\log\log-20221007.txt
+++log-20221021.txt
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api\log\log-20221021.txt
+++log-20221026.txt
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api\log\log-20221026.txt
+++log-20221027.txt
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api\log\log-20221027.txt
+++log-20221030.txt
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api\log\log-20221030.txt
+++log-20221031.txt
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api\log\log-20221031.txt
+++log-20221101.txt
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api\log\log-20221101.txt
+++log-20221104.txt
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api\log\log-20221104.txt
+++log-20221109.txt
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api\log\log-20221109.txt
+++log-20221110.txt
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api\log\log-20221110.txt
+++log-20221111.txt
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api\log\log-20221111.txt
+++log-20221113.txt
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api\log\log-20221113.txt
+++log-20221117.txt
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api\log\log-20221117.txt
+++log-20221124.txt
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api\log\log-20221124.txt
+++log-20221212.txt
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api\log\log-20221212.txt
+++log-20221221.txt
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api\log\log-20221221.txt
+++log-20221223.txt
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api\log\log-20221223.txt
+++log-20230104.txt
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api\log\log-20230104.txt
+++log-20230111.txt
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api\log\log-20230111.txt
+++log-20230202.txt
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api\log\log-20230202.txt
+++Countries
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api\views\countries\
+++Shared
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api\views\shared\
+++appsettings.Development.json
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api\appsettings.development.json
+++MessagePackAnalyzer
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:c:\users\justi\.nuget\packages\messagepackanalyzer\2.1.152\analyzers\dotnet\messagepackanalyzer.dll
+i:{eadf36ff-bbb8-41be-83ab-639188a6ab1b}:c:\users\justi\.nuget\packages\messagepackanalyzer\2.1.152\analyzers\dotnet\messagepackanalyzer.dll
+++Microsoft.AspNetCore.Analyzers
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.App.Analyzers
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+i:{eadf36ff-bbb8-41be-83ab-639188a6ab1b}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+i:{eadf36ff-bbb8-41be-83ab-639188a6ab1b}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.SourceGenerator.Tooling.Internal
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.sourcegenerator.tooling.internal.dll
+++Microsoft.CodeAnalysis.Analyzers
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:c:\users\justi\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
+i:{eadf36ff-bbb8-41be-83ab-639188a6ab1b}:c:\users\justi\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.Analyzers
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:c:\users\justi\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
+i:{eadf36ff-bbb8-41be-83ab-639188a6ab1b}:c:\users\justi\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{327241fd-3bf4-4569-9044-d8eac81f80ec}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{eadf36ff-bbb8-41be-83ab-639188a6ab1b}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{327241fd-3bf4-4569-9044-d8eac81f80ec}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{eadf36ff-bbb8-41be-83ab-639188a6ab1b}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:c:\users\justi\.nuget\packages\microsoft.entityframeworkcore.analyzers\7.0.2\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{327241fd-3bf4-4569-9044-d8eac81f80ec}:c:\users\justi\.nuget\packages\microsoft.entityframeworkcore.analyzers\7.0.2\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{eadf36ff-bbb8-41be-83ab-639188a6ab1b}:c:\users\justi\.nuget\packages\microsoft.entityframeworkcore.analyzers\7.0.2\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:c:\users\justi\.nuget\packages\microsoft.extensions.logging.abstractions\7.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{327241fd-3bf4-4569-9044-d8eac81f80ec}:c:\users\justi\.nuget\packages\microsoft.extensions.logging.abstractions\7.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{eadf36ff-bbb8-41be-83ab-639188a6ab1b}:c:\users\justi\.nuget\packages\microsoft.extensions.logging.abstractions\7.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++System.Text.Json.SourceGeneration
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:c:\users\justi\.nuget\packages\system.text.json\7.0.0\analyzers\dotnet\roslyn4.0\cs\system.text.json.sourcegeneration.dll
+i:{327241fd-3bf4-4569-9044-d8eac81f80ec}:c:\users\justi\.nuget\packages\system.text.json\7.0.0\analyzers\dotnet\roslyn4.0\cs\system.text.json.sourcegeneration.dll
+i:{eadf36ff-bbb8-41be-83ab-639188a6ab1b}:c:\users\justi\.nuget\packages\system.text.json\7.0.0\analyzers\dotnet\roslyn4.0\cs\system.text.json.sourcegeneration.dll
+++Microsoft.AspNetCore.App
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api\microsoft.aspnetcore.app
+++Microsoft.NETCore.App
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api\microsoft.netcore.app
+i:{327241fd-3bf4-4569-9044-d8eac81f80ec}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api.data\microsoft.netcore.app
+i:{eadf36ff-bbb8-41be-83ab-639188a6ab1b}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api.core\microsoft.netcore.app
+++AutoMapper.Extensions.Microsoft.DependencyInjection (12.0.0)
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:>1231
+i:{eadf36ff-bbb8-41be-83ab-639188a6ab1b}:>1208
+++EntityFramework (6.4.4)
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:>1241
+++Google.Apis.Admin.Directory.directory_v1 (1.58.0.2924)
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:>1243
+++Microsoft.AspNetCore.Authentication.JwtBearer (6.0.9)
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:>1238
+i:{eadf36ff-bbb8-41be-83ab-639188a6ab1b}:>1211
+++Microsoft.AspNetCore.Identity.EntityFrameworkCore (6.0.9)
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:>1235
+i:{327241fd-3bf4-4569-9044-d8eac81f80ec}:>1200
+i:{eadf36ff-bbb8-41be-83ab-639188a6ab1b}:>1209
+++Microsoft.AspNetCore.Mvc.Versioning (5.0.0)
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:>1225
+++Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer (5.0.0)
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:>1229
+++Microsoft.AspNetCore.OData (8.0.12)
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:>1245
+++Microsoft.AspNetCore.Razor.Design (2.2.0)
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:>1227
+++Microsoft.EntityFrameworkCore (7.0.2)
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:>1228
+++Microsoft.EntityFrameworkCore.Design (7.0.2)
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:>1232
+++Microsoft.EntityFrameworkCore.Tools (7.0.2)
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:>1240
+++Microsoft.Extensions.Configuration (7.0.0)
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:>1239
+i:{327241fd-3bf4-4569-9044-d8eac81f80ec}:>1204
+i:{eadf36ff-bbb8-41be-83ab-639188a6ab1b}:>1213
+++Microsoft.Extensions.DependencyInjection (7.0.0)
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:>1237
+++Microsoft.Extensions.Logging (7.0.0)
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:>1246
+++Microsoft.VisualStudio.Web.CodeGeneration.Design (6.0.10)
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:>1244
+i:{eadf36ff-bbb8-41be-83ab-639188a6ab1b}:>1214
+++NuGet.Build (2.12.1)
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:>1242
+++NuGetPowerTools (0.29.0)
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:>1230
+++Serilog.Extensions.Hosting (5.0.1)
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:>1234
+++Serilog.Sinks.Console (4.1.0)
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:>1236
+++Serilog.Sinks.Seq (5.2.2)
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:>1226
+i:{327241fd-3bf4-4569-9044-d8eac81f80ec}:>1194
+i:{eadf36ff-bbb8-41be-83ab-639188a6ab1b}:>1206
+++Swashbuckle.AspNetCore (6.5.0)
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:>1233
+++HotelListing.API.Core
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api.core\bin\debug\net6.0\hotellisting.api.core.dll
+i:{00000000-0000-0000-0000-000000000000}:HotelListing.API.Core
+++Create.cshtml
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api\views\countries\create.cshtml
+++Delete.cshtml
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api\views\countries\delete.cshtml
+++Details.cshtml
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api\views\countries\details.cshtml
+++Edit.cshtml
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api\views\countries\edit.cshtml
+++Index.cshtml
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api\views\countries\index.cshtml
+++_ValidationScriptsPartial.cshtml
+i:{8c45ae7c-eb8b-4441-a51d-fd256236fd80}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api\views\shared\_validationscriptspartial.cshtml
+++HotelListing.API.Data
+i:{00000000-0000-0000-0000-000000000000}:HotelListing.API.Data
+i:{eadf36ff-bbb8-41be-83ab-639188a6ab1b}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api.data\bin\debug\net6.0\hotellisting.api.data.dll
+++Configurations
+i:{327241fd-3bf4-4569-9044-d8eac81f80ec}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api.data\configurations\
+i:{eadf36ff-bbb8-41be-83ab-639188a6ab1b}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api.core\configurations\
+++Migrations
+i:{327241fd-3bf4-4569-9044-d8eac81f80ec}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api.data\migrations\
+++ApiUser.cs
+i:{327241fd-3bf4-4569-9044-d8eac81f80ec}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api.data\apiuser.cs
+++Country.cs
+i:{327241fd-3bf4-4569-9044-d8eac81f80ec}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api.data\country.cs
+++Hotel.cs
+i:{327241fd-3bf4-4569-9044-d8eac81f80ec}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api.data\hotel.cs
+++HotelListingDbContext.cs
+i:{327241fd-3bf4-4569-9044-d8eac81f80ec}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api.data\hotellistingdbcontext.cs
+++CountryConfiguration.cs
+i:{327241fd-3bf4-4569-9044-d8eac81f80ec}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api.data\configurations\countryconfiguration.cs
+++HotelConfiguration.cs
+i:{327241fd-3bf4-4569-9044-d8eac81f80ec}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api.data\configurations\hotelconfiguration.cs
+++RoleConfiguration.cs
+i:{327241fd-3bf4-4569-9044-d8eac81f80ec}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api.data\configurations\roleconfiguration.cs
+++20220806165700_InitialMigration.cs
+i:{327241fd-3bf4-4569-9044-d8eac81f80ec}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api.data\migrations\20220806165700_initialmigration.cs
+++20220808082340_SeededCountriesAndHotels.cs
+i:{327241fd-3bf4-4569-9044-d8eac81f80ec}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api.data\migrations\20220808082340_seededcountriesandhotels.cs
+++20220921000015_AddedIdentityTables.cs
+i:{327241fd-3bf4-4569-9044-d8eac81f80ec}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api.data\migrations\20220921000015_addedidentitytables.cs
+++20220921134214_AddedDefaultRoles.cs
+i:{327241fd-3bf4-4569-9044-d8eac81f80ec}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api.data\migrations\20220921134214_addeddefaultroles.cs
+++HotelListingDbContextModelSnapshot.cs
+i:{327241fd-3bf4-4569-9044-d8eac81f80ec}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api.data\migrations\hotellistingdbcontextmodelsnapshot.cs
+++Microsoft.EntityFrameworkCore.SqlServer (7.0.2)
+i:{327241fd-3bf4-4569-9044-d8eac81f80ec}:>1198
+++Microsoft.Extensions.Configuration.Json (7.0.0)
+i:{327241fd-3bf4-4569-9044-d8eac81f80ec}:>1202
+++20220806165700_InitialMigration.Designer.cs
+i:{327241fd-3bf4-4569-9044-d8eac81f80ec}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api.data\migrations\20220806165700_initialmigration.designer.cs
+++20220808082340_SeededCountriesAndHotels.Designer.cs
+i:{327241fd-3bf4-4569-9044-d8eac81f80ec}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api.data\migrations\20220808082340_seededcountriesandhotels.designer.cs
+++20220921000015_AddedIdentityTables.Designer.cs
+i:{327241fd-3bf4-4569-9044-d8eac81f80ec}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api.data\migrations\20220921000015_addedidentitytables.designer.cs
+++20220921134214_AddedDefaultRoles.Designer.cs
+i:{327241fd-3bf4-4569-9044-d8eac81f80ec}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api.data\migrations\20220921134214_addeddefaultroles.designer.cs
+++Contracts
+i:{eadf36ff-bbb8-41be-83ab-639188a6ab1b}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api.core\contracts\
+++Exceptions
+i:{eadf36ff-bbb8-41be-83ab-639188a6ab1b}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api.core\exceptions\
+++Middleware
+i:{eadf36ff-bbb8-41be-83ab-639188a6ab1b}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api.core\middleware\
+++Models
+i:{eadf36ff-bbb8-41be-83ab-639188a6ab1b}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api.core\models\
+++Repository
+i:{eadf36ff-bbb8-41be-83ab-639188a6ab1b}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api.core\repository\
+++AuthManager.cs
+i:{eadf36ff-bbb8-41be-83ab-639188a6ab1b}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api.core\repository\authmanager.cs
+++CountriesRepository.cs
+i:{eadf36ff-bbb8-41be-83ab-639188a6ab1b}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api.core\repository\countriesrepository.cs
+++GenericRepository.cs
+i:{eadf36ff-bbb8-41be-83ab-639188a6ab1b}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api.core\repository\genericrepository.cs
+++HotelsRepository.cs
+i:{eadf36ff-bbb8-41be-83ab-639188a6ab1b}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api.core\repository\hotelsrepository.cs
+++MapperConfig.cs
+i:{eadf36ff-bbb8-41be-83ab-639188a6ab1b}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api.core\configurations\mapperconfig.cs
+++IAuthManager.cs
+i:{eadf36ff-bbb8-41be-83ab-639188a6ab1b}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api.core\contracts\iauthmanager.cs
+++ICountriesRepository.cs
+i:{eadf36ff-bbb8-41be-83ab-639188a6ab1b}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api.core\contracts\icountriesrepository.cs
+++IGenericRepository.cs
+i:{eadf36ff-bbb8-41be-83ab-639188a6ab1b}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api.core\contracts\igenericrepository.cs
+++IHotelsRepository.cs
+i:{eadf36ff-bbb8-41be-83ab-639188a6ab1b}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api.core\contracts\ihotelsrepository.cs
+++NotFoundException.cs
+i:{eadf36ff-bbb8-41be-83ab-639188a6ab1b}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api.core\exceptions\notfoundexception.cs
+++ExceptionMiddleware.cs
+i:{eadf36ff-bbb8-41be-83ab-639188a6ab1b}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api.core\middleware\exceptionmiddleware.cs
+++Country
+i:{eadf36ff-bbb8-41be-83ab-639188a6ab1b}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api.core\models\country\
+++Hotel
+i:{eadf36ff-bbb8-41be-83ab-639188a6ab1b}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api.core\models\hotel\
+++Users
+i:{eadf36ff-bbb8-41be-83ab-639188a6ab1b}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api.core\models\users\
+++PagedResult.cs
+i:{eadf36ff-bbb8-41be-83ab-639188a6ab1b}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api.core\models\pagedresult.cs
+++QueryParameters.cs
+i:{eadf36ff-bbb8-41be-83ab-639188a6ab1b}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api.core\models\queryparameters.cs
+++BaseCountryDto.cs
+i:{eadf36ff-bbb8-41be-83ab-639188a6ab1b}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api.core\models\country\basecountrydto.cs
+++CountryDto.cs
+i:{eadf36ff-bbb8-41be-83ab-639188a6ab1b}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api.core\models\country\countrydto.cs
+++CreateCountryDto.cs
+i:{eadf36ff-bbb8-41be-83ab-639188a6ab1b}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api.core\models\country\createcountrydto.cs
+++GetCountryDto.cs
+i:{eadf36ff-bbb8-41be-83ab-639188a6ab1b}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api.core\models\country\getcountrydto.cs
+++UpdateCountryDto.cs
+i:{eadf36ff-bbb8-41be-83ab-639188a6ab1b}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api.core\models\country\updatecountrydto.cs
+++BaseHotelDto.cs
+i:{eadf36ff-bbb8-41be-83ab-639188a6ab1b}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api.core\models\hotel\basehoteldto.cs
+++CreateHotelDto.cs
+i:{eadf36ff-bbb8-41be-83ab-639188a6ab1b}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api.core\models\hotel\createhoteldto.cs
+++HotelDto.cs
+i:{eadf36ff-bbb8-41be-83ab-639188a6ab1b}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api.core\models\hotel\hoteldto.cs
+++ApiUserDto.cs
+i:{eadf36ff-bbb8-41be-83ab-639188a6ab1b}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api.core\models\users\apiuserdto.cs
+++AuthResponseDto.cs
+i:{eadf36ff-bbb8-41be-83ab-639188a6ab1b}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api.core\models\users\authresponsedto.cs
+++LoginDto.cs
+i:{eadf36ff-bbb8-41be-83ab-639188a6ab1b}:c:\users\justi\source\repos\rinae963\hotel-listing-api\hotellisting.api.core\models\users\logindto.cs
