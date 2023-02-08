@@ -144,6 +144,10 @@
               "target": "Package",
               "version": "[7.0.0, )"
             },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
             "Serilog.Sinks.Seq": {
               "target": "Package",
               "version": "[5.2.2, )"
